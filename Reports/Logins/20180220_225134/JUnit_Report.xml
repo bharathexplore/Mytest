@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logins" time="25" tests="0" failures="2" errors="0">
+   <testsuite name="Logins" tests="0" failures="2" errors="0" time="25" timestamp="2018-02-20 22:51:35" hostname="12107 - 192.168.0.6" id="Test Suites/Logins">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_225134"/>
+         <property name="logFiles" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_225134\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_225134\\1519185109330.png, C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_225134\\1519185119485.png"/>
+         <property name="hostName" value="12107 - 192.168.0.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="sessionId" value="bf5d583a5556056154014de64f0fbb98"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CHECKOUT" classname="Test Cases/CHECKOUT" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-02-20 22:51:36 - [TEST_CASE][FAILED] - Test Cases/CHECKOUT: Test Cases/CHECKOUT FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-02-20 22:51:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-20 22:51:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-20 22:51:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:51:49 - [MESSAGE][PASSED] - Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:51:49 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-02-20 22:51:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Higher Ed eBooks  Digital Lear/a_Sign In' does not exist
+
+2018-02-20 22:51:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-02-20 22:51:50 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_225134\\1519185109330.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-20 22:51:36 - [TEST_CASE][FAILED] - Test Cases/CHECKOUT: Test Cases/CHECKOUT FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHECKOUT" classname="Test Cases/CHECKOUT" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-02-20 22:51:50 - [TEST_CASE][FAILED] - Test Cases/CHECKOUT: Test Cases/CHECKOUT FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-02-20 22:51:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-20 22:51:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-20 22:51:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-20 22:51:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:51:59 - [MESSAGE][PASSED] - Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:51:59 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-02-20 22:51:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Higher Ed eBooks  Digital Lear/a_Sign In' does not exist
+
+2018-02-20 22:51:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-02-20 22:52:00 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_225134\\1519185119485.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-20 22:51:50 - [TEST_CASE][FAILED] - Test Cases/CHECKOUT: Test Cases/CHECKOUT FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-20 22:51:35 - [TEST_SUITE][FAILED] - Logins: Test Cases/CHECKOUT FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-02-20 22:51:35 - [TEST_SUITE][FAILED] - Logins: Test Cases/CHECKOUT FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

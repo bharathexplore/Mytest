@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180226_162243</name>
+   <tag></tag>
+   <displayName>20180226_162243</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/WebAssign_NewUser</testCaseId>
+      <testCaseName>WebAssign_NewUser</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

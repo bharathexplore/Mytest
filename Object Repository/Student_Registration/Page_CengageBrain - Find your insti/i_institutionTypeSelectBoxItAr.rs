@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_institutionTypeSelectBoxItAr</name>
+   <tag></tag>
+   <elementGuidId>a69e063e-00b7-4f10-933f-26f048aff39a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>institutionTypeSelectBoxItArrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectboxit-arrow selectboxit-default-arrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;case1&quot;)/div[@class=&quot;formRow&quot;]/div[@class=&quot;input-group inline&quot;]/span[@id=&quot;institutionTypeSelectBoxItContainer&quot;]/span[@id=&quot;institutionTypeSelectBoxIt&quot;]/span[@id=&quot;institutionTypeSelectBoxItArrowContainer&quot;]/i[@id=&quot;institutionTypeSelectBoxItArrow&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Webassign" time="30" tests="0" failures="1" errors="0">
+   <testsuite name="Webassign" tests="0" failures="1" errors="0" time="30" timestamp="2018-02-26 16:22:45" hostname="12107 - 172.16.252.234" id="Test Suites/Webassign">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Webassign\\20180226_162243"/>
+         <property name="logFiles" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Webassign\\20180226_162243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="12107 - 172.16.252.234"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="172.16.252.234"/>
+         <property name="sessionId" value="a239991c0537579fd991a01892cd40e2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebAssign_NewUser" classname="Test Cases/WebAssign_NewUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})"/>
+         <system-out><![CDATA[2018-02-26 16:22:45 - [TEST_CASE][FAILED] - Test Cases/WebAssign_NewUser: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})
+
+2018-02-26 16:22:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-26 16:22:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-26 16:22:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.webassign.net/wa-auth/login' successfully
+
+2018-02-26 16:22:53 - [MESSAGE][PASSED] - Navigate to 'https://staging.webassign.net/wa-auth/login' successfully
+
+2018-02-26 16:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/a_Enter class key' is clicked on
+
+2018-02-26 16:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/a_Enter class key' is clicked on
+
+2018-02-26 16:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/div_Enroll With Class Key' is clicked on
+
+2018-02-26 16:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/div_Enroll With Class Key' is clicked on
+
+2018-02-26 16:22:54 - [TEST_STEP][PASSED] - setText: Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_institution'
+
+2018-02-26 16:22:54 - [MESSAGE][PASSED] - Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_institution'
+
+2018-02-26 16:22:54 - [TEST_STEP][PASSED] - setText: Text '1062' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_first'
+
+2018-02-26 16:22:54 - [MESSAGE][PASSED] - Text '1062' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_first'
+
+2018-02-26 16:22:54 - [TEST_STEP][PASSED] - setText: Text '7950' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_second'
+
+2018-02-26 16:22:54 - [MESSAGE][PASSED] - Text '7950' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_second'
+
+2018-02-26 16:22:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Enroll' is clicked on
+
+2018-02-26 16:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Enroll' is clicked on
+
+2018-02-26 16:22:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Yes this is my class' is clicked on
+
+2018-02-26 16:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Yes this is my class' is clicked on
+
+2018-02-26 16:22:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account' is clicked on
+
+2018-02-26 16:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account' is clicked on
+
+2018-02-26 16:22:55 - [TEST_STEP][PASSED] - setText: Text 'testwebassign1211@mailinator.com' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_email'
+
+2018-02-26 16:22:56 - [MESSAGE][PASSED] - Text 'testwebassign1211@mailinator.com' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_email'
+
+2018-02-26 16:22:56 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_firstName'
+
+2018-02-26 16:22:56 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_firstName'
+
+2018-02-26 16:22:56 - [TEST_STEP][PASSED] - setText: Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_lastName'
+
+2018-02-26 16:22:56 - [MESSAGE][PASSED] - Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_lastName'
+
+2018-02-26 16:22:56 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_password'
+
+2018-02-26 16:22:56 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_password'
+
+2018-02-26 16:22:56 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_confirmPassword'
+
+2018-02-26 16:22:57 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_confirmPassword'
+
+2018-02-26 16:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/input_agreed' is clicked on
+
+2018-02-26 16:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/input_agreed' is clicked on
+
+2018-02-26 16:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account_1' is clicked on
+
+2018-02-26 16:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account_1' is clicked on
+
+2018-02-26 16:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account_1' is clicked on
+
+2018-02-26 16:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account_1' is clicked on
+
+2018-02-26 16:22:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})
+
+2018-02-26 16:23:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-02-26 16:23:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})]]></system-out>
+         <system-err><![CDATA[2018-02-26 16:22:45 - [TEST_CASE][FAILED] - Test Cases/WebAssign_NewUser: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-26 16:22:45 - [TEST_SUITE][FAILED] - Webassign: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})]]></system-out>
+      <system-err><![CDATA[2018-02-26 16:22:45 - [TEST_SUITE][FAILED] - Webassign: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LAPTOP-AC0S6CU9', ip: '172.16.252.234', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\12107\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a239991c0537579fd991a01892cd40e2
+*** Element info: {Using=xpath, value=//button[(text() = 'Verify Payment' or . = 'Verify Payment')]})]]></system-err>
+   </testsuite>
+</testsuites>

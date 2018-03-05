@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logins" time="32" tests="2" failures="0" errors="0">
+   <testsuite name="Logins" tests="2" failures="0" errors="0" time="32" timestamp="2018-02-20 22:35:09" hostname="12107 - 192.168.0.6" id="Test Suites/Logins">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_223508"/>
+         <property name="logFiles" value="C:\\Users\\12107\\git\\Mytest\\Reports\\Logins\\20180220_223508\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="12107 - 192.168.0.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.0.6"/>
+         <property name="sessionId" value="c6ff210cd45e1697c07f097670f8cbcf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CHECKOUT" classname="Test Cases/CHECKOUT" status="PASSED">
+         <system-out><![CDATA[2018-02-20 22:35:10 - [TEST_CASE][PASSED] - Test Cases/CHECKOUT: Test Cases/CHECKOUT
+
+2018-02-20 22:35:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-20 22:35:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-20 22:35:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:35:21 - [MESSAGE][PASSED] - Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Higher Ed eBooks  Digital Lear/a_Sign In' is clicked on
+
+2018-02-20 22:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Higher Ed eBooks  Digital Lear/a_Sign In' is clicked on
+
+2018-02-20 22:35:24 - [TEST_STEP][PASSED] - setText: Text 'bharathexplore@gmail.com' is set on object 'Object Repository/Page_Cengage/input_email'
+
+2018-02-20 22:35:24 - [MESSAGE][PASSED] - Text 'bharathexplore@gmail.com' is set on object 'Object Repository/Page_Cengage/input_email'
+
+2018-02-20 22:35:24 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Page_Cengage/input_password'
+
+2018-02-20 22:35:24 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Page_Cengage/input_password'
+
+2018-02-20 22:35:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Cengage/button_Sign In' is clicked on
+
+2018-02-20 22:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cengage/button_Sign In' is clicked on
+
+2018-02-20 22:35:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-20 22:35:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHECKOUT" classname="Test Cases/CHECKOUT" status="PASSED">
+         <system-out><![CDATA[2018-02-20 22:35:27 - [TEST_CASE][PASSED] - Test Cases/CHECKOUT: Test Cases/CHECKOUT
+
+2018-02-20 22:35:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-20 22:35:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-20 22:35:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:35:37 - [MESSAGE][PASSED] - Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-02-20 22:35:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Higher Ed eBooks  Digital Lear/a_Sign In' is clicked on
+
+2018-02-20 22:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Higher Ed eBooks  Digital Lear/a_Sign In' is clicked on
+
+2018-02-20 22:35:39 - [TEST_STEP][PASSED] - setText: Text 'test@testmail.com' is set on object 'Object Repository/Page_Cengage/input_email'
+
+2018-02-20 22:35:39 - [MESSAGE][PASSED] - Text 'test@testmail.com' is set on object 'Object Repository/Page_Cengage/input_email'
+
+2018-02-20 22:35:39 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Page_Cengage/input_password'
+
+2018-02-20 22:35:40 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Page_Cengage/input_password'
+
+2018-02-20 22:35:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Cengage/button_Sign In' is clicked on
+
+2018-02-20 22:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cengage/button_Sign In' is clicked on
+
+2018-02-20 22:35:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-20 22:35:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-20 22:35:09 - [TEST_SUITE][PASSED] - Logins: Test Cases/CHECKOUT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

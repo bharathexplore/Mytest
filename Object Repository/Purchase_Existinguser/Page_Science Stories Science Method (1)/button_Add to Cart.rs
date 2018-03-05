@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add to Cart</name>
+   <tag></tag>
+   <elementGuidId>4e822442-d701-40bc-a363-5a04e61566db</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-type</name>
+      <type>Main</type>
+      <value>link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-group</name>
+      <type>Main</type>
+      <value>Pricing, Add To Cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ceng-studentProductPricing_addToCart ng-scope ng-isolate-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>productItem['platform_0_textbookOptions_0_ebook'].purchasable</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>epi</name>
+      <type>Main</type>
+      <value>productItem['platform_0_textbookOptions_0_ebook'].epi</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>duration</name>
+      <type>Main</type>
+      <value>productItem['platform_0_textbookOptions_0_ebook'].duration</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to Cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;mod_js mod_cookies mod_no-ie8compat mod_flexbox mod_flexboxlegacy mod_no-flexboxtweener mod_flexwrap ng-scope&quot;]/body[@class=&quot;ng-scope&quot;]/main[@class=&quot;ceng-pageContents ceng-pageContents--default&quot;]/div[@class=&quot;ceng-studentProduct ceng-studentProduct--details ng-scope&quot;]/div[@class=&quot;ceng-studentProduct_section ceng-studentProduct_section--overview ceng-studentProduct_section--blue&quot;]/student-product-pricing[@class=&quot;ng-scope&quot;]/div[@class=&quot;ceng-studentProductPricing ceng-studentProductPricing--default&quot;]/div[@class=&quot;ceng-studentProductPricing_tabs js-student-product__pricing-tabs&quot;]/div[@class=&quot;ceng-studentProductPricing_tabContent js-student-product__pricing-tabContent is-active&quot;]/div[@class=&quot;ceng-studentProductPricing_entry&quot;]/div[@class=&quot;ceng-studentProductPricing_platforms&quot;]/div[@class=&quot;ceng-studentProductPricing_platformWrapper&quot;]/div[@class=&quot;ceng-studentProductPricing_afterPlatformContent&quot;]/button[@class=&quot;ceng-studentProductPricing_addToCart ng-scope ng-isolate-scope&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

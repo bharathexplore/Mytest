@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_here</name>
+   <tag></tag>
+   <elementGuidId>9538b61b-f41b-4366-8497-cb9137e4f852</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://s-www.cengage.com/shop/mycart?token=241593BC89691B2C77226D11F5296BEEE16C0DB93EEAA8D20F1229AF2560BCBACF9384F4CBAE6AC60C5378FF23E4D3ADEE50E0BCF2E39CE404B63389E12FF20AB35F613332700411</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>here</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;mod_js mod_cookies mod_no-ie8compat mod_flexbox mod_flexboxlegacy mod_no-flexboxtweener mod_flexwrap ng-scope&quot;]/body[@class=&quot;ng-scope&quot;]/div[@class=&quot;ceng-eForms ceng-eForms--modal ng-scope&quot;]/div[@class=&quot;ceng-eForms_modal ceng-studentProductModal&quot;]/div[@class=&quot;ceng-studentProductModal_inner&quot;]/div[@class=&quot;ceng-studentProductModal_body&quot;]/div[@class=&quot;ceng-studentProductModal_rtf ng-binding&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

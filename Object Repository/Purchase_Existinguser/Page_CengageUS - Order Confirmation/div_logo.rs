@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_logo</name>
+   <tag></tag>
+   <elementGuidId>6572eae3-24a9-484f-9507-aa7ca2fe6afa</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;dj_webkit dj_chrome dj_contentbox wf-mattb-n4-active wf-rooneyweb-n4-active wf-rooneyweb-i4-active wf-rooneyweb-i7-active wf-gnuolane-n4-active wf-gnuolane-n7-active wf-opensans-n7-active wf-opensans-i7-active wf-rooneyweb-n7-active wf-opensans-i4-active wf-opensans-n4-active wf-active&quot;]/body[1]/div[@class=&quot;container&quot;]/header[@class=&quot;row&quot;]/div[@class=&quot;col-md-2 col-sm-2 col-xs-2&quot;]/a[1]/div[@class=&quot;logo&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

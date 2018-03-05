@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_radiusSelectBoxItArrow</name>
+   <tag></tag>
+   <elementGuidId>ee3d3ebe-32f1-4bab-92ac-792dc0907499</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radiusSelectBoxItArrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectboxit-arrow selectboxit-default-arrow</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>unselectable</name>
+      <type>Main</type>
+      <value>on</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;case1&quot;)/div[@class=&quot;formRow&quot;]/div[@class=&quot;input-group inline&quot;]/span[@id=&quot;radiusSelectBoxItContainer&quot;]/span[@id=&quot;radiusSelectBoxIt&quot;]/span[@id=&quot;radiusSelectBoxItArrowContainer&quot;]/i[@id=&quot;radiusSelectBoxItArrow&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

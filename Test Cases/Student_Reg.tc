@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Student_Reg</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d382093-46ca-41e4-a66d-90bb5be4dff6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb0cf695-d641-4867-bfc0-62d1d2e3dbfd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43aed0d0-10a4-4997-9b6d-56b1ce481464</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e387f581-ea81-4e3f-86ae-2d3497028c52</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

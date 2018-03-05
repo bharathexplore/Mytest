@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Anthropology</name>
+   <tag></tag>
+   <elementGuidId>cdff6eb2-30a2-4e88-b406-a4cb00dd5fa6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ceng-primaryNav_tier3Link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://s-www.cengage.com/s/anthropology</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-type</name>
+      <type>Main</type>
+      <value>link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-group</name>
+      <type>Main</type>
+      <value>Header, Primary Navigation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Anthropology</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ceng-header&quot;)/div[@class=&quot;ceng-primaryNav&quot;]/ul[@class=&quot;ceng-primaryNav_tier1List&quot;]/li[@class=&quot;ceng-primaryNav_tier1Item&quot;]/div[@class=&quot;ceng-primaryNav_tier1Menu is-open&quot;]/ul[@class=&quot;ceng-primaryNav_tier2List&quot;]/li[@class=&quot;ceng-primaryNav_tier2Item&quot;]/div[@class=&quot;ceng-primaryNav_tier2Menu is-open&quot;]/ul[@class=&quot;ceng-primaryNav_tier3List--cols_3&quot;]/li[@class=&quot;ceng-primaryNav_tier3Item&quot;]/a[@class=&quot;ceng-primaryNav_tier3Link&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
