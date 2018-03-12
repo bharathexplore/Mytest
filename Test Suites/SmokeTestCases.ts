@@ -4,6 +4,7 @@
    <name>SmokeTestCases</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-03-10T22:52:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -13,13 +14,67 @@
    <testCaseLink>
       <guid>1dac0ee5-19a9-4ffd-87a5-05ab5829a09e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/WebAssign_NewUser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76eb859e-83b9-431e-894e-b2c5b881f500</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Student_Reg</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4b0a0c65-76b6-4864-873b-b887e05e24a1</variableId>
+         <variableId>fb0cf695-d641-4867-bfc0-62d1d2e3dbfd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>43aed0d0-10a4-4997-9b6d-56b1ce481464</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e387f581-ea81-4e3f-86ae-2d3497028c52</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0fb4b03-8ef8-4c15-ba96-6f672a57c33b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Existing_user_Purchase</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>404f8477-0ba3-441f-b2d6-26fc3a0603d4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50ca4594-31ed-4a4b-ba96-2f2047a4b188</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Purchase_newuser_Accesscode_New</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4be55dca-d60e-4df3-80f0-918bb584a2bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b01a938a-59da-494f-96e4-16eae6d9bcc7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d92ff7f9-e80e-4e0f-82a1-b88781e3f26b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

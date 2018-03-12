@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTestCases" time="119" tests="1" failures="0" errors="0">
+   <testsuite name="SmokeTestCases" tests="1" failures="0" errors="0" time="119" timestamp="2018-03-10 22:52:42" hostname="jsubramani - COGNICOMPRJ-V7.corp.local" id="Test Suites/SmokeTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_225239"/>
+         <property name="logFiles" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_225239\\execution0.log, C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_225239\\IEDriverServer.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jsubramani - COGNICOMPRJ-V7.corp.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="10.161.127.80"/>
+         <property name="sessionId" value="924dbeec-dfbd-4794-b566-2ad708922543"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Existing_user_Purchase" classname="Test Cases/Existing_user_Purchase" status="PASSED">
+         <system-out><![CDATA[2018-03-10 22:52:44 - [TEST_CASE][PASSED] - Test Cases/Existing_user_Purchase: Test Cases/Existing_user_Purchase
+
+2018-03-10 22:52:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-10 22:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-10 22:52:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-03-10 22:53:00 - [MESSAGE][PASSED] - Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-03-10 22:53:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Sign In' is clicked on
+
+2018-03-10 22:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Sign In' is clicked on
+
+2018-03-10 22:53:02 - [TEST_STEP][PASSED] - setText: Text 'test@mailinator.com' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_email'
+
+2018-03-10 22:53:08 - [MESSAGE][PASSED] - Text 'test@mailinator.com' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_email'
+
+2018-03-10 22:53:08 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_password'
+
+2018-03-10 22:53:10 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_password'
+
+2018-03-10 22:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/button_Sign In' is clicked on
+
+2018-03-10 22:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/button_Sign In' is clicked on
+
+2018-03-10 22:53:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' is clicked on
+
+2018-03-10 22:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' is clicked on
+
+2018-03-10 22:53:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/searchbox' is clicked on
+
+2018-03-10 22:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/searchbox' is clicked on
+
+2018-03-10 22:53:25 - [TEST_STEP][PASSED] - setText: Text 'science' is set on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/input_q'
+
+2018-03-10 22:53:26 - [MESSAGE][PASSED] - Text 'science' is set on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/input_q'
+
+2018-03-10 22:53:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/svg' is clicked on
+
+2018-03-10 22:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/svg' is clicked on
+
+2018-03-10 22:53:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_science - Cengage (1)/a_Science Stories Science Meth' is clicked on
+
+2018-03-10 22:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_science - Cengage (1)/a_Science Stories Science Meth' is clicked on
+
+2018-03-10 22:53:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Science Stories Science Method (1)/button_Add to Cart' is clicked on
+
+2018-03-10 22:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Science Stories Science Method (1)/button_Add to Cart' is clicked on
+
+2018-03-10 22:53:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Science Stories Science Method (1)/a_here' is clicked on
+
+2018-03-10 22:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Science Stories Science Method (1)/a_here' is clicked on
+
+2018-03-10 22:53:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Shopping Cart/div_START SECURE CHECKOUT' is clicked on
+
+2018-03-10 22:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Shopping Cart/div_START SECURE CHECKOUT' is clicked on
+
+2018-03-10 22:54:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/input_SameShippingAndBillingAd' is clicked on
+
+2018-03-10 22:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/input_SameShippingAndBillingAd' is clicked on
+
+2018-03-10 22:54:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Next Choose Shipping' is clicked on
+
+2018-03-10 22:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Next Choose Shipping' is clicked on
+
+2018-03-10 22:54:07 - [TEST_STEP][PASSED] - waitForElementClickable: Web element with id: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/a_YES use it anyway' located by 'By.xpath: //a[(text() = 'YES, use it anyway' or . = 'YES, use it anyway')]' not found
+
+2018-03-10 22:54:17 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/a_YES use it anyway' located by 'By.xpath: //a[(text() = 'YES, use it anyway' or . = 'YES, use it anyway')]' not found
+
+2018-03-10 22:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi/a_YES use it anyway' is clicked on
+
+2018-03-10 22:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi/a_YES use it anyway' is clicked on
+
+2018-03-10 22:54:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Next Choose Payment' is clicked on
+
+2018-03-10 22:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Next Choose Payment' is clicked on
+
+2018-03-10 22:54:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-10 22:54:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-10 22:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Complete Purchase' is clicked on
+
+2018-03-10 22:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Complete Purchase' is clicked on
+
+2018-03-10 22:54:30 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Purchase_Existinguser/Page_CengageUS - Order Confirmation (1)/b_3770012)): Text of object 'Object Repository/Purchase_Existinguser/Page_CengageUS - Order Confirmation (1)/b_3770012' is: ''
+
+2018-03-10 22:54:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Purchase_Existinguser/Page_CengageUS - Order Confirmation (1)/b_3770012' is: '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-10 22:52:42 - [TEST_SUITE][PASSED] - SmokeTestCases: Test Cases/Existing_user_Purchase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

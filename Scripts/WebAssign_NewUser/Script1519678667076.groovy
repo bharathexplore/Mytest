@@ -22,15 +22,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-def generator = { String alphabet, int n ->
-	new Random().with {
-	  (1..n).collect { alphabet[nextInt( alphabet.length() ) ] }.join()
-	}
-  }
-  
- va = generator( (('A'..'Z')+('0'..'9')).join(), 9 )
-
-
 WebUI.navigateToUrl('https://staging.webassign.net/wa-auth/login')
 
 WebUI.click(findTestObject('Webassign_creation/Page_WebAssign/a_Enter class key'))
@@ -39,9 +30,9 @@ WebUI.click(findTestObject('Webassign_creation/Page_WebAssign/div_Enroll With Cl
 
 WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_institution'), 'webassign')
 
-WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_first'), '1062')
+WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_first'), '8625')
 
-WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_second'), '7950')
+WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_second'), '5460')
 
 WebUI.click(findTestObject('Webassign_creation/Page_WebAssign/button_Enroll'))
 
@@ -49,7 +40,7 @@ WebUI.click(findTestObject('Webassign_creation/Page_WebAssign/button_Yes this is
 
 WebUI.click(findTestObject('Webassign_creation/Page_WebAssign/button_Create Account'))
 
-WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_email'), va+'@mailinator.com')
+WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_email'), 'test2s212@mailinator.com')
 
 WebUI.setText(findTestObject('Webassign_creation/Page_WebAssign/input_firstName'), 'test')
 
@@ -68,7 +59,6 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Webassign_creation/Page_WebAssign/button_Verify Payment'))
 
 //WebUI.rightClick(findTestObject('Webassign_creation/Page_WebAssign - Course Payment/h2_PURCHASE ACCESS'))
-
 WebUI.click(findTestObject('Webassign_creation/Page_WebAssign - Course Payment/button_Continue'))
 
 WebUI.click(findTestObject('Webassign_creation/Page_Shopping Cart/a_Start Secure Checkout'))

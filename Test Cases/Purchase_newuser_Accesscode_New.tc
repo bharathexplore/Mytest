@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Purchase_newuser_Accesscode_New</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b62f6832-48c5-441c-8bd2-88c8a182c1d0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4be55dca-d60e-4df3-80f0-918bb584a2bd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b01a938a-59da-494f-96e4-16eae6d9bcc7</id>
+      <masked>false</masked>
+      <name>pwd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d92ff7f9-e80e-4e0f-82a1-b88781e3f26b</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

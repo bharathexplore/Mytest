@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180310_225239</name>
+   <tag></tag>
+   <displayName>20180310_225239</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Existing_user_Purchase</testCaseId>
+      <testCaseName>Existing_user_Purchase</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

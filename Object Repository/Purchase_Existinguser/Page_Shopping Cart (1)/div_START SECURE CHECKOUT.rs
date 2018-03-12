@@ -4,17 +4,23 @@
    <name>div_START SECURE CHECKOUT</name>
    <tag></tag>
    <elementGuidId>63a61f0b-677d-4446-ab67-8a093c46d5d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//text()[.='START SECURE CHECKOUT']/ancestor::div[1][count(. | //*[@class = 'button_text' and (text() = 'START SECURE CHECKOUT' or . = 'START SECURE CHECKOUT')]) = count(//*[@class = 'button_text' and (text() = 'START SECURE CHECKOUT' or . = 'START SECURE CHECKOUT')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -28,10 +34,10 @@
       <value>START SECURE CHECKOUT</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;guestShopperContinue&quot;)/div[@class=&quot;button_text&quot;]</value>
+      <value>//text()[.='START SECURE CHECKOUT']/ancestor::div[1]</value>
    </webElementProperties>
 </WebElementEntity>

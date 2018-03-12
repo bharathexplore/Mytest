@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTestCases,Chrome 64.0.3282.186,,2018-03-05 14:59:53,2018-03-05 15:00:02,8.649s,ERROR
+,,,,,,
+Test Cases/WebAssign_NewUser,Chrome 64.0.3282.186,,2018-03-05 14:59:54,2018-03-05 15:00:00,5.989s,ERROR
+openBrowser,Chrome 64.0.3282.186,,2018-03-05 14:59:55,2018-03-05 15:00:00,5.024s,PASSED
+"Statement - generator = { java.lang.String alphabet, int n -> ... }",Chrome 64.0.3282.186,,2018-03-05 15:00:00,2018-03-05 15:00:00,0.001s,PASSED
+"Statement - va = generator.call((A..Z) + (0..9).join(), 9)",Chrome 64.0.3282.186,,2018-03-05 15:00:00,2018-03-05 15:00:00,0.012s,PASSED

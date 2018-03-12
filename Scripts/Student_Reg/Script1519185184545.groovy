@@ -22,19 +22,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://s-www.cengage.com/')
+WebUI.navigateToUrl('https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/')
 
-WebUI.delay(2)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Higher Ed eBooks  Digital Lear/a_Sign In'))
+Random ran = new Random()
 
-WebUI.click(findTestObject('Student_Registration/Page_Cengage/button_Create an Account'))
+int t = ran.nextInt(100)
+
+WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - Login or Regist/a_Create a new account'))
 
 WebUI.click(findTestObject('Student_Registration/Page_Cengage/a_Student'))
 
-WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - Login or Regist/input_email'), '"test1@mailinator.com"')
+WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - Login or Regist/input_email'), ('test' + t) + '@mailinator.com')
 
-WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - Login or Regist/a_Create a new account'))
+WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/a_Create my account'))
 
 WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/input_fname'), 'test')
 
@@ -42,7 +44,7 @@ WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - New Stude
 
 WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/input_password'), 'Password1')
 
-WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/input_confirmPassword'), "Password1")
+WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/input_confirmPassword'), 'Password1')
 
 WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/i_questionSelectBoxItArrow'))
 
@@ -56,29 +58,29 @@ WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - New Student
 
 WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/input_receiveNews'))
 
-WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - New Student Reg/a_Create my account'))
+WebUI.click(findTestObject('Purchase_Newuser_SSO/Page_CengageBrain - New Student Reg/a_Create my account'))
 
 WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - Find your insti/i_locationSelectBoxItArrow'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_CengageBrain - New Student Reg/Country'))
 
 WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - Find your insti/i_institutionTypeSelectBoxItAr'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_CengageBrain - New Student Reg/Year College'))
 
 WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - Find your insti/i_radiusSelectBoxItArrow'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_CengageBrain - New Student Reg/Range'))
 
 WebUI.click(findTestObject('Student_Registration/Page_CengageBrain - Find your insti/div_Enter your zipcode'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Student_Registration/Page_CengageBrain - Find your insti/input_zipcode'), '45040')
 
@@ -92,5 +94,5 @@ WebUI.switchToWindowTitle('Cengage')
 
 WebUI.click(findTestObject('Student_Registration/Page_Cengage/h2_MY PRODUCTS'))
 
-WebUI.closeBrowser()
+WebUI.takeScreenshot()
 

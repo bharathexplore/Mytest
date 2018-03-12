@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTestCases" time="139" tests="1" failures="2" errors="1">
+   <testsuite name="SmokeTestCases" tests="1" failures="2" errors="1" time="139" timestamp="2018-03-10 21:23:46" hostname="jsubramani - COGNICOMPRJ-V7.corp.local" id="Test Suites/SmokeTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343"/>
+         <property name="logFiles" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\1520735073341.png, C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\1520735106005.png, C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\1520735150802.png"/>
+         <property name="hostName" value="jsubramani - COGNICOMPRJ-V7.corp.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.161.127.80"/>
+         <property name="sessionId" value="07c22219f4dc9285edc22bc3729ac913"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/WebAssign_NewUser" classname="Test Cases/WebAssign_NewUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)"/>
+         <system-out><![CDATA[2018-03-10 21:23:47 - [TEST_CASE][FAILED] - Test Cases/WebAssign_NewUser: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)
+
+2018-03-10 21:23:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-10 21:23:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-10 21:23:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.webassign.net/wa-auth/login' successfully
+
+2018-03-10 21:23:54 - [MESSAGE][PASSED] - Navigate to 'https://staging.webassign.net/wa-auth/login' successfully
+
+2018-03-10 21:23:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/a_Enter class key' is clicked on
+
+2018-03-10 21:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/a_Enter class key' is clicked on
+
+2018-03-10 21:23:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/div_Enroll With Class Key' is clicked on
+
+2018-03-10 21:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/div_Enroll With Class Key' is clicked on
+
+2018-03-10 21:23:55 - [TEST_STEP][PASSED] - setText: Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_institution'
+
+2018-03-10 21:23:55 - [MESSAGE][PASSED] - Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_institution'
+
+2018-03-10 21:23:55 - [TEST_STEP][PASSED] - setText: Text '8625' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_first'
+
+2018-03-10 21:23:55 - [MESSAGE][PASSED] - Text '8625' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_first'
+
+2018-03-10 21:23:55 - [TEST_STEP][PASSED] - setText: Text '5460' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_second'
+
+2018-03-10 21:23:56 - [MESSAGE][PASSED] - Text '5460' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_second'
+
+2018-03-10 21:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Enroll' is clicked on
+
+2018-03-10 21:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Enroll' is clicked on
+
+2018-03-10 21:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Yes this is my class' is clicked on
+
+2018-03-10 21:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Yes this is my class' is clicked on
+
+2018-03-10 21:23:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account' is clicked on
+
+2018-03-10 21:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account' is clicked on
+
+2018-03-10 21:23:57 - [TEST_STEP][PASSED] - setText: Text 'test2212@mailinator.com' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_email'
+
+2018-03-10 21:23:58 - [MESSAGE][PASSED] - Text 'test2212@mailinator.com' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_email'
+
+2018-03-10 21:23:58 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_firstName'
+
+2018-03-10 21:23:58 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_firstName'
+
+2018-03-10 21:23:58 - [TEST_STEP][PASSED] - setText: Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_lastName'
+
+2018-03-10 21:23:58 - [MESSAGE][PASSED] - Text 'webassign' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_lastName'
+
+2018-03-10 21:23:58 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_password'
+
+2018-03-10 21:23:59 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_password'
+
+2018-03-10 21:23:59 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_confirmPassword'
+
+2018-03-10 21:23:59 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Webassign_creation/Page_WebAssign/input_confirmPassword'
+
+2018-03-10 21:23:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/input_agreed' is clicked on
+
+2018-03-10 21:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/input_agreed' is clicked on
+
+2018-03-10 21:23:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account_1' is clicked on
+
+2018-03-10 21:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Webassign_creation/Page_WebAssign/button_Create Account_1' is clicked on
+
+2018-03-10 21:24:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-10 21:24:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-10 21:24:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)
+
+2018-03-10 21:24:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)
+[[ATTACHMENT|C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\1520735073341.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-10 21:23:47 - [TEST_CASE][FAILED] - Test Cases/WebAssign_NewUser: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Student_Reg" classname="Test Cases/Student_Reg" status="PASSED">
+         <system-out><![CDATA[2018-03-10 21:24:33 - [TEST_CASE][PASSED] - Test Cases/Student_Reg: Test Cases/Student_Reg
+
+2018-03-10 21:24:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-10 21:24:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-10 21:24:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-10 21:24:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/' successfully
+
+2018-03-10 21:24:39 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/' successfully
+
+2018-03-10 21:24:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-10 21:24:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-10 21:24:40 - [TEST_STEP][PASSED] - Statement - ran = new java.util.Random(): null
+
+2018-03-10 21:24:40 - [TEST_STEP][PASSED] - Statement - t = ran.nextInt(100): null
+
+2018-03-10 21:24:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/a_Create a new account' is clicked on
+
+2018-03-10 21:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/a_Create a new account' is clicked on
+
+2018-03-10 21:24:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_Cengage/a_Student' is clicked on
+
+2018-03-10 21:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_Cengage/a_Student' is clicked on
+
+2018-03-10 21:24:43 - [TEST_STEP][PASSED] - setText: Text 'test31@mailinator.com' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/input_email'
+
+2018-03-10 21:24:43 - [MESSAGE][PASSED] - Text 'test31@mailinator.com' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/input_email'
+
+2018-03-10 21:24:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:24:45 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_fname'
+
+2018-03-10 21:24:45 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_fname'
+
+2018-03-10 21:24:45 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_lname'
+
+2018-03-10 21:24:46 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_lname'
+
+2018-03-10 21:24:46 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_password'
+
+2018-03-10 21:24:46 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_password'
+
+2018-03-10 21:24:46 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_confirmPassword'
+
+2018-03-10 21:24:47 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_confirmPassword'
+
+2018-03-10 21:24:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/i_questionSelectBoxItArrow' is clicked on
+
+2018-03-10 21:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/i_questionSelectBoxItArrow' is clicked on
+
+2018-03-10 21:24:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-10 21:24:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-10 21:24:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/a_What is your mothers maiden' is clicked on
+
+2018-03-10 21:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/a_What is your mothers maiden' is clicked on
+
+2018-03-10 21:24:49 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_answer'
+
+2018-03-10 21:24:49 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_answer'
+
+2018-03-10 21:24:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_acceptEULA' is clicked on
+
+2018-03-10 21:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_acceptEULA' is clicked on
+
+2018-03-10 21:24:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_receiveNews' is clicked on
+
+2018-03-10 21:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_receiveNews' is clicked on
+
+2018-03-10 21:24:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Newuser_SSO/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Newuser_SSO/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:24:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_locationSelectBoxItArrow' is clicked on
+
+2018-03-10 21:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_locationSelectBoxItArrow' is clicked on
+
+2018-03-10 21:24:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:24:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:24:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/Country' is clicked on
+
+2018-03-10 21:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/Country' is clicked on
+
+2018-03-10 21:24:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_institutionTypeSelectBoxItAr' is clicked on
+
+2018-03-10 21:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_institutionTypeSelectBoxItAr' is clicked on
+
+2018-03-10 21:24:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:24:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:24:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/Year College' is clicked on
+
+2018-03-10 21:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/Year College' is clicked on
+
+2018-03-10 21:24:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_radiusSelectBoxItArrow' is clicked on
+
+2018-03-10 21:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_radiusSelectBoxItArrow' is clicked on
+
+2018-03-10 21:24:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:24:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:24:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/Range' is clicked on
+
+2018-03-10 21:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/Range' is clicked on
+
+2018-03-10 21:24:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/div_Enter your zipcode' is clicked on
+
+2018-03-10 21:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/div_Enter your zipcode' is clicked on
+
+2018-03-10 21:24:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:24:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:24:57 - [TEST_STEP][PASSED] - setText: Text '45040' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/input_zipcode'
+
+2018-03-10 21:24:57 - [MESSAGE][PASSED] - Text '45040' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/input_zipcode'
+
+2018-03-10 21:24:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/a_Find' is clicked on
+
+2018-03-10 21:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/a_Find' is clicked on
+
+2018-03-10 21:24:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/input_institutionId' is clicked on
+
+2018-03-10 21:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/input_institutionId' is clicked on
+
+2018-03-10 21:24:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/a_Continue' is clicked on
+
+2018-03-10 21:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/a_Continue' is clicked on
+
+2018-03-10 21:25:03 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Cengage'
+
+2018-03-10 21:25:03 - [MESSAGE][PASSED] - Switched to window with title: 'Cengage'
+
+2018-03-10 21:25:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_Cengage/h2_MY PRODUCTS' is clicked on
+
+2018-03-10 21:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_Cengage/h2_MY PRODUCTS' is clicked on
+
+2018-03-10 21:25:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-03-10 21:25:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\1520735106005.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/existing user" classname="Test Cases/existing user" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' located by 'By.xpath: //a[@href = 'https://s-www.cengage.com/students/' and (text() = 'Students' or . = 'Students')]' not found)"/>
+         <system-out><![CDATA[2018-03-10 21:25:06 - [TEST_CASE][FAILED] - Test Cases/existing user: Test Cases/existing user FAILED because (of) Unable to click on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' located by 'By.xpath: //a[@href = 'https://s-www.cengage.com/students/' and (text() = 'Students' or . = 'Students')]' not found)
+
+2018-03-10 21:25:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-10 21:25:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-10 21:25:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-10 21:25:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-03-10 21:25:14 - [MESSAGE][PASSED] - Navigate to 'https://s-www.cengage.com/' successfully
+
+2018-03-10 21:25:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Sign In' is clicked on
+
+2018-03-10 21:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Sign In' is clicked on
+
+2018-03-10 21:25:16 - [TEST_STEP][PASSED] - setText: Text 'cengage@test1.com' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_email'
+
+2018-03-10 21:25:17 - [MESSAGE][PASSED] - Text 'cengage@test1.com' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_email'
+
+2018-03-10 21:25:17 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_password'
+
+2018-03-10 21:25:17 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/input_password'
+
+2018-03-10 21:25:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/button_Sign In' is clicked on
+
+2018-03-10 21:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Existinguser/Page_Cengage (1)/button_Sign In' is clicked on
+
+2018-03-10 21:25:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' located by 'By.xpath: //a[@href = 'https://s-www.cengage.com/students/' and (text() = 'Students' or . = 'Students')]' not found)
+
+2018-03-10 21:25:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' located by 'By.xpath: //a[@href = 'https://s-www.cengage.com/students/' and (text() = 'Students' or . = 'Students')]' not found)
+[[ATTACHMENT|C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_212343\\1520735150802.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-10 21:25:06 - [TEST_CASE][FAILED] - Test Cases/existing user: Test Cases/existing user FAILED because (of) Unable to click on object 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Students' located by 'By.xpath: //a[@href = 'https://s-www.cengage.com/students/' and (text() = 'Students' or . = 'Students')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Purchase_newuser_Accesscode" classname="Test Cases/Purchase_newuser_Accesscode" status="ERROR">
+         <error type="ERROR" message="Test Cases/Purchase_newuser_Accesscode FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (java.lang.String) values: [//button[text()=Create an Account]]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), back(), back(com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-03-10 21:25:51 - [TEST_CASE][ERROR] - Test Cases/Purchase_newuser_Accesscode: Test Cases/Purchase_newuser_Accesscode FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (java.lang.String) values: [//button[text()=Create an Account]]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), back(), back(com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)
+
+2018-03-10 21:25:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-10 21:25:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-10 21:26:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-10 21:26:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/' successfully
+
+2018-03-10 21:26:04 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/' successfully
+
+2018-03-10 21:26:04 - [TEST_STEP][PASSED] - click: null]]></system-out>
+         <system-err><![CDATA[2018-03-10 21:25:51 - [TEST_CASE][ERROR] - Test Cases/Purchase_newuser_Accesscode: Test Cases/Purchase_newuser_Accesscode FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (java.lang.String) values: [//button[text()=Create an Account]]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), back(), back(com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-10 21:23:46 - [TEST_SUITE][FAILED] - SmokeTestCases: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-10 21:23:46 - [TEST_SUITE][FAILED] - SmokeTestCases: Test Cases/WebAssign_NewUser FAILED because (of) Unable to click on object 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Webassign_creation/Page_WebAssign/button_Verify Payment' located by 'By.xpath: //button[(text() = 'Verify Payment' or . = 'Verify Payment')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTestCases" time="60" tests="1" failures="0" errors="0">
+   <testsuite name="SmokeTestCases" tests="1" failures="0" errors="0" time="60" timestamp="2018-03-10 21:17:11" hostname="jsubramani - COGNICOMPRJ-V7.corp.local" id="Test Suites/SmokeTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_211709"/>
+         <property name="logFiles" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_211709\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_211709\\1520734690191.png"/>
+         <property name="hostName" value="jsubramani - COGNICOMPRJ-V7.corp.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.161.127.80"/>
+         <property name="sessionId" value="2c3c21d38283b6558392abbb5cd97e90"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Student_Reg" classname="Test Cases/Student_Reg" status="PASSED">
+         <system-out><![CDATA[2018-03-10 21:17:12 - [TEST_CASE][PASSED] - Test Cases/Student_Reg: Test Cases/Student_Reg
+
+2018-03-10 21:17:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-10 21:17:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-10 21:17:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/' successfully
+
+2018-03-10 21:17:21 - [MESSAGE][PASSED] - Navigate to 'https://qa-login.cengage.com/cb/login.htm?app=cmp&targeturl=https://s-www.cengage.com/' successfully
+
+2018-03-10 21:17:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-10 21:17:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-10 21:17:23 - [TEST_STEP][PASSED] - Statement - ran = new java.util.Random(): null
+
+2018-03-10 21:17:23 - [TEST_STEP][PASSED] - Statement - t = ran.nextInt(100): null
+
+2018-03-10 21:17:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/a_Create a new account' is clicked on
+
+2018-03-10 21:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/a_Create a new account' is clicked on
+
+2018-03-10 21:17:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_Cengage/a_Student' is clicked on
+
+2018-03-10 21:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_Cengage/a_Student' is clicked on
+
+2018-03-10 21:17:27 - [TEST_STEP][PASSED] - setText: Text 'test68@mailinator.com' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/input_email'
+
+2018-03-10 21:17:28 - [MESSAGE][PASSED] - Text 'test68@mailinator.com' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Login or Regist/input_email'
+
+2018-03-10 21:17:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:17:29 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_fname'
+
+2018-03-10 21:17:29 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_fname'
+
+2018-03-10 21:17:29 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_lname'
+
+2018-03-10 21:17:30 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_lname'
+
+2018-03-10 21:17:30 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_password'
+
+2018-03-10 21:17:30 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_password'
+
+2018-03-10 21:17:30 - [TEST_STEP][PASSED] - setText: Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_confirmPassword'
+
+2018-03-10 21:17:31 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_confirmPassword'
+
+2018-03-10 21:17:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/i_questionSelectBoxItArrow' is clicked on
+
+2018-03-10 21:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/i_questionSelectBoxItArrow' is clicked on
+
+2018-03-10 21:17:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-10 21:17:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-10 21:17:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/a_What is your mothers maiden' is clicked on
+
+2018-03-10 21:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/a_What is your mothers maiden' is clicked on
+
+2018-03-10 21:17:33 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_answer'
+
+2018-03-10 21:17:34 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_answer'
+
+2018-03-10 21:17:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_acceptEULA' is clicked on
+
+2018-03-10 21:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_acceptEULA' is clicked on
+
+2018-03-10 21:17:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_receiveNews' is clicked on
+
+2018-03-10 21:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - New Student Reg/input_receiveNews' is clicked on
+
+2018-03-10 21:17:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Purchase_Newuser_SSO/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Purchase_Newuser_SSO/Page_CengageBrain - New Student Reg/a_Create my account' is clicked on
+
+2018-03-10 21:17:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_locationSelectBoxItArrow' is clicked on
+
+2018-03-10 21:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_locationSelectBoxItArrow' is clicked on
+
+2018-03-10 21:17:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:17:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:17:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/Country' is clicked on
+
+2018-03-10 21:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/Country' is clicked on
+
+2018-03-10 21:17:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_institutionTypeSelectBoxItAr' is clicked on
+
+2018-03-10 21:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_institutionTypeSelectBoxItAr' is clicked on
+
+2018-03-10 21:17:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:17:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:17:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/Year College' is clicked on
+
+2018-03-10 21:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/Year College' is clicked on
+
+2018-03-10 21:17:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_radiusSelectBoxItArrow' is clicked on
+
+2018-03-10 21:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/i_radiusSelectBoxItArrow' is clicked on
+
+2018-03-10 21:17:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CengageBrain - New Student Reg/Range' is clicked on
+
+2018-03-10 21:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CengageBrain - New Student Reg/Range' is clicked on
+
+2018-03-10 21:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/div_Enter your zipcode' is clicked on
+
+2018-03-10 21:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/div_Enter your zipcode' is clicked on
+
+2018-03-10 21:17:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-10 21:17:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-10 21:17:41 - [TEST_STEP][PASSED] - setText: Text '45040' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/input_zipcode'
+
+2018-03-10 21:17:42 - [MESSAGE][PASSED] - Text '45040' is set on object 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/input_zipcode'
+
+2018-03-10 21:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/a_Find' is clicked on
+
+2018-03-10 21:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Find your insti/a_Find' is clicked on
+
+2018-03-10 21:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/input_institutionId' is clicked on
+
+2018-03-10 21:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/input_institutionId' is clicked on
+
+2018-03-10 21:17:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/a_Continue' is clicked on
+
+2018-03-10 21:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_CengageBrain - Select your ins/a_Continue' is clicked on
+
+2018-03-10 21:18:09 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Cengage'
+
+2018-03-10 21:18:09 - [MESSAGE][PASSED] - Switched to window with title: 'Cengage'
+
+2018-03-10 21:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Student_Registration/Page_Cengage/h2_MY PRODUCTS' is clicked on
+
+2018-03-10 21:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Student_Registration/Page_Cengage/h2_MY PRODUCTS' is clicked on
+
+2018-03-10 21:18:10 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-03-10 21:18:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180310_211709\\1520734690191.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-10 21:17:11 - [TEST_SUITE][PASSED] - SmokeTestCases: Test Cases/Student_Reg]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180310_214231</name>
+   <tag></tag>
+   <displayName>20180310_214231</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/WebAssign_NewUser</testCaseId>
+      <testCaseName>WebAssign_NewUser</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Student_Reg</testCaseId>
+      <testCaseName>Student_Reg</testCaseName>
+      <videoLocation>videos/test_2.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/existing user</testCaseId>
+      <testCaseName>existing user</testCaseName>
+      <videoLocation>videos/test_3.avi</videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Purchase_newuser_Accesscode</testCaseId>
+      <testCaseName>Purchase_newuser_Accesscode</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>

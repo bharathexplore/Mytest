@@ -26,7 +26,7 @@ WebUI.navigateToUrl('https://s-www.cengage.com/')
 
 WebUI.click(findTestObject('Purchase_Existinguser/Page_Higher Ed eBooks  Digital Lear (1)/a_Sign In'))
 
-WebUI.setText(findTestObject('Purchase_Existinguser/Page_Cengage (1)/input_email'), 'cengage@test1.com')
+WebUI.setText(findTestObject('Purchase_Existinguser/Page_Cengage (1)/input_email'), 'test@mailinator.com')
 
 WebUI.setText(findTestObject('Purchase_Existinguser/Page_Cengage (1)/input_password'), 'Password1')
 
@@ -46,23 +46,22 @@ WebUI.click(findTestObject('Purchase_Existinguser/Page_Science Stories Science M
 
 WebUI.click(findTestObject('Purchase_Existinguser/Page_Science Stories Science Method (1)/a_here'))
 
-WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi/a_YES use it anyway'))
-
-WebUI.click(findTestObject('Purchase_Existinguser/Page_Shopping Cart (1)/div_START SECURE CHECKOUT'))
+WebUI.click(findTestObject('Purchase_Existinguser/Page_Shopping Cart/div_START SECURE CHECKOUT'))
 
 WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/input_SameShippingAndBillingAd'))
 
 WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Next Choose Shipping'))
 
-WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_grayOut'))
+WebUI.waitForElementClickable(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/a_YES use it anyway'), 
+    6)
 
-WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/a_YES use it anyway'))
+WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi/a_YES use it anyway'))
 
 WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Next Choose Payment'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Purchase_Existinguser/Page_CengageUS - Shipping and Billi (1)/div_Complete Purchase'))
 
 a = WebUI.getText(findTestObject('Object Repository/Purchase_Existinguser/Page_CengageUS - Order Confirmation (1)/b_3770012'))
-
-WebUI.closeBrowser()
 

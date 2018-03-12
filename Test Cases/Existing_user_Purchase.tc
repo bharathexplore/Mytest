@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>existing user</name>
+   <name>Existing_user_Purchase</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dff56c1a-c6f5-4f35-b499-70e7ca98cb8a</testCaseGuid>

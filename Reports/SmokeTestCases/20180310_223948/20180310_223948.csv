@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTestCases,,,2018-03-10 22:39:50,2018-03-10 22:39:55,4.707s,FAILED
+,,,,,,
+Test Cases/WebAssign_NewUser,,,2018-03-10 22:39:51,2018-03-10 22:39:52,1.622s,FAILED
+openBrowser,,,2018-03-10 22:39:51,2018-03-10 22:39:52,0.856s,FAILED
+,,,,,,
+Test Cases/Student_Reg,,,2018-03-10 22:39:52,2018-03-10 22:39:53,0.583s,FAILED
+openBrowser,,,2018-03-10 22:39:53,2018-03-10 22:39:53,0.015s,FAILED
+,,,,,,
+Test Cases/Existing_user_Purchase,,,2018-03-10 22:39:53,2018-03-10 22:39:53,0.235s,FAILED
+openBrowser,,,2018-03-10 22:39:53,2018-03-10 22:39:53,0.000s,FAILED
+,,,,,,
+Test Cases/Purchase_newuser_Accesscode_New,,,2018-03-10 22:39:53,2018-03-10 22:39:55,1.801s,FAILED
+openBrowser,,,2018-03-10 22:39:55,2018-03-10 22:39:55,0.000s,FAILED

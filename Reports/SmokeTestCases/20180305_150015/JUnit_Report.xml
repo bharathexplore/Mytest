@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTestCases" time="8" tests="0" failures="0" errors="1">
+   <testsuite name="SmokeTestCases" tests="0" failures="0" errors="1" time="8" timestamp="2018-03-05 15:00:17" hostname="jsubramani - COGNICOMPRJ-V7.corp.local" id="Test Suites/SmokeTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180305_150015"/>
+         <property name="logFiles" value="C:\\Users\\jsubramani\\git\\Mytest\\Reports\\SmokeTestCases\\20180305_150015\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jsubramani - COGNICOMPRJ-V7.corp.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.161.127.80"/>
+         <property name="sessionId" value="3c46bcba6966aca17442b27f7c85f1d6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/WebAssign_NewUser" classname="Test Cases/WebAssign_NewUser" status="ERROR">
+         <error type="ERROR" message="Test Cases/WebAssign_NewUser FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1519678667076$_run_closure1.call() is applicable for argument types: (java.util.ArrayList, java.lang.Integer) values: [[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, ...], ...]
+Possible solutions: any(), any(), doCall(java.lang.String, int), dump(), collect(), grep()"/>
+         <system-out><![CDATA[2018-03-05 15:00:18 - [TEST_CASE][ERROR] - Test Cases/WebAssign_NewUser: Test Cases/WebAssign_NewUser FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1519678667076$_run_closure1.call() is applicable for argument types: (java.util.ArrayList, java.lang.Integer) values: [[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, ...], ...]
+Possible solutions: any(), any(), doCall(java.lang.String, int), dump(), collect(), grep()
+
+2018-03-05 15:00:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-05 15:00:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-05 15:00:24 - [TEST_STEP][PASSED] - Statement - generator = { java.lang.String alphabet, int n -> ... }: null
+
+2018-03-05 15:00:24 - [TEST_STEP][PASSED] - Statement - va = generator.call((A..Z) + (0..9).join(), 9): null]]></system-out>
+         <system-err><![CDATA[2018-03-05 15:00:18 - [TEST_CASE][ERROR] - Test Cases/WebAssign_NewUser: Test Cases/WebAssign_NewUser FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1519678667076$_run_closure1.call() is applicable for argument types: (java.util.ArrayList, java.lang.Integer) values: [[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, ...], ...]
+Possible solutions: any(), any(), doCall(java.lang.String, int), dump(), collect(), grep()]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-05 15:00:17 - [TEST_SUITE][ERROR] - SmokeTestCases: Test Cases/WebAssign_NewUser FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1519678667076$_run_closure1.call() is applicable for argument types: (java.util.ArrayList, java.lang.Integer) values: [[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, ...], ...]
+Possible solutions: any(), any(), doCall(java.lang.String, int), dump(), collect(), grep()]]></system-out>
+      <system-err><![CDATA[2018-03-05 15:00:17 - [TEST_SUITE][ERROR] - SmokeTestCases: Test Cases/WebAssign_NewUser FAILED because (of) groovy.lang.MissingMethodException: No signature of method: Script1519678667076$_run_closure1.call() is applicable for argument types: (java.util.ArrayList, java.lang.Integer) values: [[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, ...], ...]
+Possible solutions: any(), any(), doCall(java.lang.String, int), dump(), collect(), grep()]]></system-err>
+   </testsuite>
+</testsuites>

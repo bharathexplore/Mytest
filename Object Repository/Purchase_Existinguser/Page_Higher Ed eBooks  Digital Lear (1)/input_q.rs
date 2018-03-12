@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id='headerSearchModal']</value>
+         <value>//input[@type='text'][@placeholder='Title, Author, ISBN, or Keyword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -59,6 +59,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id='headerSearchModal']</value>
+      <value>//input[@type='text'][@placeholder='Title, Author, ISBN, or Keyword']</value>
    </webElementProperties>
 </WebElementEntity>
