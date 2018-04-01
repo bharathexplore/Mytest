@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Gateway_soap</name>
+   <name>DBconnection</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5321849d-640f-4a42-854f-cc1d89bbacc0</testCaseGuid>
+   <testCaseGuid>f06ad0cf-eed0-4d4e-b08c-736471d7f4d6</testCaseGuid>
 </TestCaseEntity>

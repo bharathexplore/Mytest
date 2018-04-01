@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Students</name>
+   <tag></tag>
+   <elementGuidId>f7780e9d-1dc2-42a2-ae8d-fa109c5273fb</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://s-www.cengage.com/c/terrorism-and-homeland-security-9e-white</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-cookie</name>
+      <type>Main</type>
+      <value>Student</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-header-type</name>
+      <type>Main</type>
+      <value>Student</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Students</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ceng-header&quot;)/div[@class=&quot;ceng-headerNav&quot;]/div[@class=&quot;ceng-headerNav_navs&quot;]/div[@class=&quot;ceng-headerNavMain&quot;]/nav[@class=&quot;ceng-headerNavMain_training js-training-cookie&quot;]/ul[@class=&quot;ceng-headerNavMain_nav&quot;]/li[@class=&quot;ceng-headerNavMain_navItem&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

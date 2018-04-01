@@ -19,5 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def response =WS.sendRequest(findTestObject('Object Repository/New Request'))
-WS.verifyElementText(response, 'ns4:uid', 'newuser01@pj.com')
+CustomKeywords.'cengag.login.openurl'('https://s-www.cengage.com/')
+
+CustomKeywords.'cengag.login.Logincengage'('test@mailinator.com', 'Password1')
+
+CustomKeywords.'cengag.login.Countcart'()
+

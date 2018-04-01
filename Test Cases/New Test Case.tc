@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce2ed231-a99d-426b-b77a-b40c902dfc71</testCaseGuid>
+   <variable>
+      <defaultValue>'s-www.cengage.com'</defaultValue>
+      <description></description>
+      <id>e3a3c895-c964-4ab2-a78d-8f786e5233c1</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8918358-02cd-4e62-bcf9-a43cbf5297ed</id>
+      <masked>false</masked>
+      <name>UID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7dc41f33-6605-4012-be32-f9d872504b0e</id>
+      <masked>false</masked>
+      <name>PWD</name>
+   </variable>
+</TestCaseEntity>

@@ -16,6 +16,7 @@ import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testcase.TestCaseFactory
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
@@ -41,10 +42,32 @@ public class login {
 	
 	WebUI.click(findTestObject('Purchase_Existinguser/Page_Cengage (1)/button_Sign In'))
 	
-	if(WebUI.verifyElementPresent('xpath=//text()[contains(.,Account)]/ancestor::a[1]'), 20)){
-		
-		print 'true'
-	}
 	
 
+}
+		
+@Keyword
+		def Countcart(){
+			
+		def myobj = new TestObject("customObject");
+		myobj.addProperty("xpath", ConditionType.EQUALS, "//*[@id='ceng-header']/div/div[2]/ul/li[2]/a")
+		def result = WebUI.getText(myobj)
+		def a = (result.split('Cart')[1])
+		def cnt=a.replaceAll("[(),]", "")
+		return cnt;
+		
+	
+}
+		
+		@Keyword
+		def openurl(def URL){
+			
+	
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(URL)
+	
+}
+	
+	
 }
